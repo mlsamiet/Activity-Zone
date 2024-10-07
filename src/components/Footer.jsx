@@ -1,13 +1,12 @@
 import React from 'react';
-import logo2 from '../images/logo2.png';
+import logo from '../images/logo.png';
 
 const Footer = () => {
   return (
     <footer className="bg-orange-500 text-white py-4">
       <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
         <div className="flex items-center mb-4 md:mb-0">
-          <img src={logo2} alt="Logo" className="w-12 h-12 mr-2" />
-          <span className="text-xl font-bold">MLSA MIET</span>
+          <img src={logo} alt="Logo" className="h-56 mr-2" />
         </div>
         
         <div className="text-center mb-4 md:mb-0">
@@ -31,7 +30,7 @@ const Footer = () => {
       
       {/* Added made with love message */}
       <div className="text-center mt-4">
-        <p>Made with <>💓</> by Suryansh</p>
+        <p>@Rights Reserved : MLSA MIET</p>
       </div>
     </footer>
   );
