@@ -12,7 +12,7 @@ const ImagesSection = () => {
 
   return (
     <section className="p-8">
-      <h2 className="text-5xl font-bold mb-28 text-center text-primary">Process</h2>
+      <h2 className="text-5xl font-bold mb-10 md:mb-28 text-center text-primary">Process</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
         {images.map((image, index) => (
           <div key={index} className="flex flex-col items-center group">
@@ -25,7 +25,7 @@ const ImagesSection = () => {
             </div>
             <h1 className='text-2xl text-primary font-bold'>{image.heading}</h1>
             <div className="bg-orange p-4 rounded-lg shadow-md w-full transition-all duration-300 group-hover:shadow-lg group-hover:bg--50">
-              <p className="text-center text-gray-700 transition-colors duration-300 group-hover:text-red-700 font-medium">
+              <p className="text-center text-gray-700 transition-colors duration-300 group-hover:text-primary font-medium">
                 {image.text}
               </p>
             </div>

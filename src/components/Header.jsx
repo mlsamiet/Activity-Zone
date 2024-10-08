@@ -2,7 +2,7 @@ import logo from '../images/logo.png';
 
 const Header = () => {
   return (
-    <header className="flex justify-between items-center shadow-md px-6">
+    <header className="flex justify-between items-center shadow-md px-6 fixed w-full">
       <div className="flex items-center">
         <img src={logo} alt="Logo" className="h-24" /> {/* Adjust width and height as needed */}
       </div>

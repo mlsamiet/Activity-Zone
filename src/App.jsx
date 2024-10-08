@@ -7,7 +7,7 @@ import ActivityZone from './components/ActivityZone';
 
 const App = () => {
   return (
-    <div className="flex flex-col min-h-screen bg-background">
+    <div className="flex flex-col min-h-screen bg-background scroll-smooth">
       <Header />
       <ActivityZone /> {/* Add the Front component here */}
       <main className="flex flex-col flex-grow justify-center items-center">
