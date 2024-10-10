@@ -16,14 +16,17 @@ const ImagesSection = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
         {images.map((image, index) => (
           <div key={index} className="flex flex-col items-center group">
-            <div className=" h-64 mb-6 overflow-hidden rounded-lg shadow-lg transition-transform duration-300 ease-in-out group-hover:scale-105">
+            {/* <div className=" h-64 mb-6 overflow-hidden rounded-lg shadow-lg transition-transform duration-300 ease-in-out group-hover:scale-105">
               <img 
                 src={image.src} 
                 alt={`Step ${index + 1}`} 
                 className="w-full h-full object-contain transition-transform duration-300 ease-in-out group-hover:scale-110"
               />
-            </div>
+            </div> */}
+            <div className='rounded-full h-20 w-20 flex justify-center items-center shadow-lg'>
             <h1 className='text-2xl text-primary font-bold'>{image.heading}</h1>
+
+            </div>
             <div className="bg-orange p-4 rounded-lg shadow-md w-full transition-all duration-300 group-hover:shadow-lg group-hover:bg--50">
               <p className="text-center text-gray-700 transition-colors duration-300 group-hover:text-primary font-medium">
                 {image.text}

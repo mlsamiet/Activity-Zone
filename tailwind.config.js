@@ -10,10 +10,17 @@ export default {
         // primary:'#f97432',
         primary:'#1f385e',
         // secondary: '#ffac4a',
-        secondary: '#497cb0',
-        background:'#A7D49B',
+        secondary: '#255e9a',
+        background:'#F5F5DC',
+        tertiary:'#255e9a',
         c1:'#def3ff',
         c2:'#334a72'
+      },
+      backgroundImage:{
+        'img':"url('src/images/backgroundImage.png')",
+      },
+      fontFamily:{
+        'primary':'Edu AU VIC WA NT Dots'
       }
     },
   },
