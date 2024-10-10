@@ -13,8 +13,8 @@ const ActivityZone = () => {
         </div>
         
         <div className="md:w-2/3 md:pl-8 flex flex-col items-center justify-center gap-5">
-          <h1 className="text-primary text-3xl lg:text-7xl font-semibold mb-4 text-center">THE ACTIVITY ZONE</h1>
-          <a className="bg-secondary text-white px-6 py-3 rounded-md flex items-center text-xs md:text-base" href='#modules'>
+          <h1 className="text-primary text-3xl lg:text-7xl font-bold mb-4 text-center font-primary">THE ACTIVITY ZONE</h1>
+          <a className="bg-secondary text-white px-6 py-3 rounded-md flex items-center text-xs md:text-base font-primary" href='#modules'>
             October 24 - December 24
             {/* You can add a down arrow here as a simple text or an emoji if needed */}
           </a>
