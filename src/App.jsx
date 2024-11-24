@@ -11,6 +11,7 @@ const App = () => {
       <Header />
       <ActivityZone /> {/* Add the Front component here */}
       <main className="flex flex-col flex-grow justify-center items-center">
+      <Over />
         <Modules />
         <ImagesSection />
       </main>
